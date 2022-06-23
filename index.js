@@ -57,8 +57,13 @@ By : ${chalk.red('@Only_NoRealss')} - ${chalk.green('X CHEAT DEVELOPER SINCE 201
             const trophy = data.User.SkillRating;
             const crown = data.User.Crowns;
             
-            console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
-            await sleep(2500);
+            console.log(chalk.yellow(`
+[ ${chalk.white('Time')} ]: ${moment().format('HH:mm:ss')}
+[ ${chalk.white('Username')} ] : ${username}
+[ ${chalk.white('Country')} ] : ${country}
+[ ${chalk.white('Trophy')} ] : ${trophy}
+[ ${chalk.white('Crown')} ] : ${crown}`));   
+ await sleep(2500);
 
         } else if (result == 'YOUR ACCOUNT HAS BANNED!!') {
 
