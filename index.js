@@ -28,15 +28,16 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`
-██╗  ██╗    ███╗   ██╗ ██████╗ ██████╗ ███████╗ █████╗ ██╗     ███████╗
-╚██╗██╔╝    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔════╝
- ╚███╔╝     ██╔██╗ ██║██║   ██║██████╔╝█████╗  ███████║██║     ███████╗
- ██╔██╗     ██║╚██╗██║██║   ██║██╔══██╗██╔══╝  ██╔══██║██║     ╚════██║
-██╔╝ ██╗    ██║ ╚████║╚██████╔╝██║  ██║███████╗██║  ██║███████╗███████║
-╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
-${chalk.green('Note : use this tool at 11.00 to 16.00 so as not to get banned')}
-${chalk.red('Type : X TOOL BY NOREALS V4.2.0')}
-By : ${chalk.red('@Only_NoRealss')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 2019')}
+█
+██╗░░░░░░█████╗░███╗░░██╗░█████╗░
+██║░░░░░██╔══██╗████╗░██║██╔══██╗
+██║░░░░░███████║██╔██╗██║███████║
+██║░░░░░██╔══██║██║╚████║██╔══██║
+███████╗██║░░██║██║░╚███║██║░░██║
+╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝
+${chalk.green('Note : JANGAN MENGGUNAKAN 2 SCRIPT SECARA BERSAMA')}
+${chalk.red('Type : Lana New Version')}
+By : ${chalk.red('@Only_Lana')} - ${chalk.green('Lana Cheat')}
 `);
 
   const auth = rs.question('[+] Enter Authentication Code! : ');
