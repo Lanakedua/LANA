@@ -58,7 +58,7 @@ By : ${chalk.red('@Only_Lana')} - ${chalk.green('Lana Cheat')}
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(5000);
+      await sleep(0.5);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
